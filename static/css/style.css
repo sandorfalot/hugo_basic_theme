@@ -1,0 +1,36 @@
+   /* unvisited link */
+a:link {
+  color: #44449B;
+  font-weight: 500;
+}
+
+/* visited link */
+a:visited {
+  color: #212221;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #212221;
+}
+@media only screen and (min-width: 768px) {
+    nav { flex-direction: row; }
+    .project-container { display: flex; }
+    .project-container .project-list { width: 20%; }
+    .project-container .project { flex: 1; }
+}
+a.tag{
+    background-color: #ddd;
+    color: #333;
+    display: inline-block;
+    padding: 0.3em;
+    font-size: 0.9em;
+    border-radius: 5px;
+
+}
